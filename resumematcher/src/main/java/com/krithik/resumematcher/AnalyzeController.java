@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://resume-matcher-red.vercel.app/")
 public class AnalyzeController {
 
     private final GeminiService geminiService;
